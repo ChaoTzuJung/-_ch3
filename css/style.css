@@ -1,0 +1,215 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+  font-style: Arial Black;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.main_bg {
+  background-color: #EDF2C5;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 940px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 53px 160px 35px 160px;
+}
+.container header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.container header .title h1 {
+  font-size: 2.75em;
+  color: #778A50;
+  font-style: Arial BoldMT;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+.container header .icon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px -5px;
+}
+.container header .icon .image {
+  margin: 0px 5px;
+  margin-top: 5px;
+}
+.container header .icon .line {
+  margin: 0px 5px;
+  background-color: #778A50;
+  height: 25px;
+  width: 1px;
+}
+.container header .icon .button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 60px;
+  height: 25px;
+  font-size: 0.75em;
+  color: #778A50;
+  font-style: Arial Black;
+  border: 1px solid #778A50;
+  border-radius: 3px;
+  margin: 0px 5px;
+}
+.container .navbar .nav_area {
+  margin: 0px;
+  background-color: #778A50;
+  width: 100%;
+  border-radius: 3px;
+  -webkit-box-shadow: 4px 4px 10px -1px #727171;
+  -moz-box-shadow: 4px 4px 10px -1px #727171;
+  box-shadow: 4px 4px 10px -1px #727171;
+}
+.container .navbar .nav_button {
+  display: inline-block;
+  padding: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #778A50;
+  color: #EDF2C5;
+  font-family: Arial Black;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.container .imgbox {
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.container .imgbox-inner {
+  width: 100%;
+  height: 0;
+  padding-top: 534px;
+  position: relative;
+}
+.container .imgbox .image {
+  width: 100%;
+  height: 534px;
+  background-size: cover;
+  background-size-background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .Bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.container .Bottom .left_side {
+  width: 445px;
+  height: 200px;
+}
+.container .Bottom .left_side .Left_head {
+  width: 100%;
+  height: 45px;
+  background-color: #778A50;
+  color: #EDF2C5;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 3px;
+  -webkit-box-shadow: 4px 4px 10px -1px #727171;
+  -moz-box-shadow: 4px 4px 10px -1px #727171;
+  box-shadow: 4px 4px 10px -1px #727171;
+}
+.container .Bottom .left_side .LeftContent {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.container .Bottom .left_side .LeftContent .image {
+  width: 140px;
+  height: 140px;
+}
+.container .Bottom .right_side {
+  width: 445px;
+  height: 200px;
+}
+.container .Bottom .right_side .Right_head {
+  width: 100%;
+  height: 45px;
+  background-color: #778A50;
+  color: #EDF2C5;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 3px;
+  -webkit-box-shadow: 4px 4px 10px -1px #727171;
+  -moz-box-shadow: 4px 4px 10px -1px #727171;
+  box-shadow: 4px 4px 10px -1px #727171;
+}
+.container .Bottom .right_side .RightContent {
+  width: 100%;
+  height: 140px;
+  margin-top: 15px;
+  background-color: #F7FBDA;
+  border-radius: 3px;
+  padding: 16px 15px;
+  -webkit-box-shadow: 4px 4px 10px -1px #727171;
+  -moz-box-shadow: 4px 4px 10px -1px #727171;
+  box-shadow: 4px 4px 10px -1px #727171;
+}
+.container .Bottom .right_side .RightContent .text {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: ArialMT;
+  line-height: 1.33;
+  color: #7D7D7D;
+}
+.container .Bottom .right_side .RightContent .contact {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 16px;
+  font-size: 12px;
+  font-family: ArialMT;
+  color: #7D7D7D;
+  line-height: 1.83;
+}
+.container .Bottom .right_side .RightContent hr {
+  width: 414px;
+  color: #7D7D7D;
+  margin: 0px;
+  margin-top: 16px;
+}
+
+footer {
+  width: 100%;
+  background-color: #778A50;
+  font-size: 0.75em;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: #EDF2C5;
+  margin-top: 35px;
+}
